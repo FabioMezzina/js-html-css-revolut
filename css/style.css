@@ -57,6 +57,13 @@ img {
   margin-left: 20px;
 }
 
+.btn {
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #eb008e;
+  border-radius: 30px;
+}
+
 /* Dropdown Menu */
 .with-dropdown {
   position: relative;
@@ -74,6 +81,30 @@ img {
 
 .prodotti {
   width: 350px;
+}
+
+.beta {
+  position: relative;
+}
+
+.beta::after {
+  content: 'beta';
+  position: absolute;
+  color: #eb008e;
+  font-size: 10px;
+  top: -6px;
+}
+
+.nuovo {
+  position: relative;
+}
+
+.nuovo::after {
+  content: 'nuovo';
+  position: absolute;
+  color: #eb008e;
+  font-size: 10px;
+  top: -6px;
 }
 
 .azienda {

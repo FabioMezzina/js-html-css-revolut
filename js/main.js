@@ -11,5 +11,4 @@ $(document).ready(function () {
     // apro o chiudo in menù cliccato
     actualMenu.toggle();
   });
-
 }); // <-- end doc ready
