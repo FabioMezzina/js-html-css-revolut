@@ -14,8 +14,11 @@ a {
   color: #a0a6ae;
 }
 
-a:hover,
-a:focus {
+a:hover {
+  color: #000;
+}
+
+.color-black {
   color: #000;
 }
 
