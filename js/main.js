@@ -21,6 +21,7 @@ $(document).ready(function () {
   });
   // chiudo il menù aperto se clicco all'esterno
   $(document).click(function(e){
-    $(menus).hide();
+    menus.hide();
+    actions.removeClass('color-black');
   });
 }); // <-- end doc ready
