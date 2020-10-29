@@ -13,6 +13,7 @@ $(document).ready(function () {
     actualMenu.toggle();
     // evita che il click dei dropdown venga visto come un click sul document
     event.stopPropagation();
+    event.preventDefault(); // previene comportamento di default di <a>
   });
   // gestisco il focus sui link
   links.click( function() {
